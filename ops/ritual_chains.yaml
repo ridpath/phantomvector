@@ -1,0 +1,96 @@
+# ops/ritual_chains.yaml
+
+# ┌────────────────────────────────────────────┐
+# │  Ritual Chain Playbook Set                                  │
+# └────────────────────────────────────────────┘
+# 
+# Each chain is:
+#   - Entropy-aware (optional min_entropy threshold)
+#   - Vector-tagged (rf, net, deception, cognitive, siem, exfil, etc.)
+#   - Environment-aware (required keys must be provided via or CLI)
+#   - Execution-safe (validated against vector_registry)
+
+- id: disruption_alpha
+  name: Disruption Alpha Chain
+  description: >
+    Executes a coordinated RF signal blend and SIEM fracture to confuse
+    detection systems, followed by dashboard hallucination to poison analyst trust.
+  required: [siem_ip, grafana_url, grafana_token]
+  tags: [rf, siem, cognitive]
+  min_entropy: 5.8
+  vectors:
+    - rf_blend
+    - siem_fracture
+    - mind_poison
+
+- id: deception_gamma
+  name: Deception Gamma Chain
+  description: >
+    Full-scope deception targeting Grafana and SIEM environments,
+    flooding with synthetic incident lore and visual misdirection.
+  required: [grafana_url, grafana_token]
+  tags: [deception, cognitive, soc]
+  min_entropy: 5.0
+  vectors:
+    - mind_poison
+    - synth_lore
+    - dns_echo
+
+- id: entropic_storm
+  name: Entropic Storm Protocol
+  description: >
+    Executes an entropy-reactive recursive ritual with stacked effects.
+    Targets all surfaces (RF, deception, SIEM) in a layered recursion cycle.
+  required: [grafana_url, grafana_token, siem_ip, dns_target]
+  tags: [multi, rf, net, siem, deception, cognitive]
+  min_entropy: 6.0
+  vectors:
+    - ritual_loop
+
+- id: false_flag_psi
+  name: False Flag Psi Engagement
+  description: >
+    Launches GPS spoof and BLE disrupt patterns to simulate adversary presence
+    in physical kill zone while injecting misleading visual telemetry.
+  required: [grafana_url, grafana_token]
+  tags: [rf, gps, ble, deception]
+  min_entropy: 4.8
+  vectors:
+    - gps_spoof
+    - ble_disrupt
+    - mind_poison
+
+- id: panic_broadcast
+  name: Panic Broadcast Chain
+  description: >
+    Saturates the environment with fake malware alerts, RTSP noise, and entropy spikes
+    while disabling operator response confidence.
+  required: [siem_ip]
+  tags: [siem, disruption, cognitive]
+  min_entropy: 5.4
+  vectors:
+    - siem_fracture
+    - synth_lore
+    - dns_echo
+
+- id: recon_mask_omega
+  name: Recon Mask Omega
+  description: >
+    Deploys RF signal blending and telemetry injection to obscure active reconnaissance ops.
+  required: [grafana_url, grafana_token]
+  tags: [rf, deception, stealth]
+  min_entropy: 4.5
+  vectors:
+    - rf_blend
+    - mind_poison
+
+- id: edge_case_test
+  name: Test: Edge Conditions
+  description: >
+    Test scenario for validating entropy thresholds and fallback behavior.
+  required: []
+  tags: [test, edge, validation]
+  min_entropy: 0.0
+  vectors:
+    - camera_jam
+    - dns_echo
