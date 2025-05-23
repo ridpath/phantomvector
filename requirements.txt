@@ -1,0 +1,64 @@
+# =============================
+# Core Dependencies
+# =============================
+numpy
+scapy
+requests
+faker
+PyYAML
+tqdm
+argcomplete
+rich
+tabulate
+colorama
+loguru
+
+# =============================
+# ML / LLM / AI Tooling
+# =============================
+scikit-learn
+openai
+transformers
+
+# =============================
+# BLE + Bluetooth Stack
+# =============================
+# ⚠ Requires: libglib2.0-dev libbluetooth-dev pkg-config
+bleak              # Native BLE stack (cross-platform)
+bluepy==1.3.0      # ⚠ Lower-level BlueZ binding (requires glib.h)
+
+# =============================
+# SDR / RF Capable Packages
+# =============================
+# ⚠ Not pip installable: Use conda or system packages for gnuradio
+# gnuradio          # ⚠ Install via Conda: conda install -c conda-forge gnuradio
+# gr-gsm            # ⚠ Install from source (for GSM jamming)
+
+# =============================
+# Dashboard Integration
+# =============================
+# Grafana / Prometheus integrations use native requests + forged JSON
+# Optional: prometheus-client if needed
+
+# =============================
+# Splunk / SIEM Integration
+# =============================
+splunk-sdk
+
+# =============================
+# Optional Visualization
+# =============================
+matplotlib
+
+# =============================
+# Debug and Utilities
+# =============================
+# ipython         # Optional: enhanced REPL
+# pyfiglet        # Optional: ASCII banners
+# pwntools        # Optional: binary CTFs
+
+# =============================
+# ENV TOOLING
+# =============================
+# Ensure these tools are installed:
+# sudo apt install -y libglib2.0-dev libbluetooth-dev libudev-dev libffi-dev build-essential pkg-config
