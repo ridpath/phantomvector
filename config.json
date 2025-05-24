@@ -1,0 +1,11 @@
+{
+  "siem_ip": "192.168.0.9",
+  "grafana_url": "http://localhost:3000",
+  "grafana_token": "deadbeef123",
+  "splunk_url": "http://localhost:8088",
+  "splunk_token": "splunk-xyz-abc-123",
+  "prometheus_url": "http://localhost:9090",
+  "telemetry_log": "data/ritual_exec_log.jsonl",
+  "simulation": false,
+  "verbosity": "debug"
+}
