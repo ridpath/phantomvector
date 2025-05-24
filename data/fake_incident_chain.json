@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-05-23T14:01:12Z",
+    "host": "db1.internal",
+    "ip": "203.0.113.47",
+    "mac": "DE:AD:BE:EF:00:01",
+    "process": "sshd",
+    "actor": "APT29",
+    "technique": "T1071",
+    "message": "Accepted password for root from 203.0.113.47 port 54422 ssh2",
+    "campaign": "op_dark_star",
+    "tags": ["ssh", "root", "intrusion"]
+  },
+  {
+    "timestamp": "2025-05-23T14:04:51Z",
+    "host": "proxy-alpha",
+    "ip": "192.168.6.42",
+    "mac": "FA:KE:12:34:56:78",
+    "process": "nginx",
+    "actor": "FIN7",
+    "technique": "T1190",
+    "message": "Suspicious activity detected on interface eth0",
+    "campaign": "op_dark_star",
+    "tags": ["proxy", "network", "suspicious"]
+  }
+]
