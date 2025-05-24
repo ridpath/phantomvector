@@ -1,0 +1,18 @@
+{
+  "vectors": [
+    "bgp_pollute",
+    "ble_beacon",
+    "ble_disrupt",
+    "camera_jam",
+    "dns_echo",
+    "gps_spoof",
+    "llm_poison",
+    "mind_poison",
+    "oauth_clone",
+    "rf_blend",
+    "ritual_loop",
+    "siem_fracture",
+    "synth_lore",
+    "telemetry_invert"
+  ]
+}
