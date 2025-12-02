@@ -91,7 +91,7 @@ auth-only red team research tool
 Clone the repo and install dependencies:
 
 ```bash
-git clone [https://github.com/ridpath/phantomvector.git](https://github.com/ridpath/phantomvector.git)
+git clone https://github.com/ridpath/phantomvector.git
 cd phantomvector
 pip install -r requirements.txt
 ```
