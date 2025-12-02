@@ -51,6 +51,28 @@ research and authorized lab-only usage
 | Adversary Disruption | Data Manipulation (SIEM/Splunk/Grafana) | T1565 |
 | Lateral Movement | Wireless Compromise (BLE/WiFi/Zigbee) | T1599.001 |
 
+<!--
+phantomvector cybersecurity research,
+adversarial deception framework,
+SIEM evasion engine,
+synthetic event injection,
+threat hunting bypass testing,
+cyber deception lab tools,
+RF telematics manipulation,
+telemetry obfuscation research,
+false-positive generation for SOC testing,
+Blue Team drift testing,
+industrial RF red teaming,
+GNSS testbed spoofing tools,
+cyber-physical deception analytics,
+log poisoning adversarial machine learning,
+SOC AI bypass and misdirection,
+disinformation injection cybersecurity,
+honeytoken confusion payloads,
+network defense deception validation,
+advanced evasion and stealth operations,
+auth-only red team research tool
+-->
 
 ---
 
@@ -69,7 +91,7 @@ research and authorized lab-only usage
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/phantomvector.git
+git clone [https://github.com/ridpath/phantomvector.git](https://github.com/ridpath/phantomvector.git)
 cd phantomvector
 pip install -r requirements.txt
 ```
